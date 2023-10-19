@@ -1,0 +1,15 @@
+.match-as-progress {
+  container-type: size;
+
+  .match-label {
+    font-size: 9.04cqw;
+    line-height: 1.28;
+    transform: translateY(230%);
+  }
+
+  .match-value {
+    font-size: 29.65cqw;
+    line-height: 1.16;
+    transform: translateY(120%);
+  }
+}
