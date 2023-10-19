@@ -1,0 +1,59 @@
+@import "../variables";
+
+.match-as-progress {
+  container-type: inline-size;
+
+  .match-label {
+    line-height: 1.28;
+    transform: translateY(230%);
+  }
+
+  .match-value {
+    line-height: 1.16;
+    transform: translateY(120%);
+  }
+
+  // base 117.5px (mobile, widgets in middje)
+  @container (min-width: 117.5px) {
+    .match-label {
+      font-size: 11px;
+    }
+
+    .match-value {
+      font-size: 34px;
+    }
+  }
+
+  // base 155px (desktop, widgets at top)
+  @container (min-width: 155px) {
+    .match-label {
+      font-size: 14px;
+    }
+
+    .match-value {
+      font-size: 46px;
+    }
+  }
+
+  // base 163px (mobile, widgets at top)
+  @container (min-width: 163px) {
+    .match-label {
+      font-size: 15px;
+    }
+
+    .match-value {
+      font-size: 48px;
+    }
+  }
+
+  // 204px (desktop, widgets in the middle)
+  @container (min-width: 204px) {
+    .match-label {
+      font-size: 18px;
+    }
+
+    .match-value {
+      font-size: 61px;
+    }
+  }
+}
