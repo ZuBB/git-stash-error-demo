@@ -21,3 +21,6 @@ error: 'git apply' failed
 
 If we say `a` to whole file in STR at step #3, all also ends without a glitch
 
+### Answer
+
+https://stackoverflow.com/a/12763901/1344249
