@@ -19,5 +19,5 @@ error: 'git apply' failed
 
 #### Note
 
-If we say `a` to whole file in STR at step #3, all also ends without glitch
+If we say `a` to whole file in STR at step #3, all also ends without a glitch
 
